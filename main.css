@@ -1,0 +1,17 @@
+
+#button {
+	background-color: lightblue;
+	color: white;
+	width: 10em;
+	height: 2em;
+	margin: 1em 0em;
+}
+
+div {
+	float: left;
+	margin: 3em 2em 0em 0em;
+}
+
+p {
+	clear: left;
+}

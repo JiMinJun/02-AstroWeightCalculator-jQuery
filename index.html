@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Astro Weight Calculator 2.0</title>
+		<link rel="stylesheet" type="text/CSS" href=main.css></link>
+	</head>
+
+	<body>
+		<h1>Astro Weight Calculator</h1>
+		<div id = "weight">
+			<form>
+				Your Weight </br>
+				<input type="number" name="weight" id="originalWeight" >
+			</form>
+		</div>
+
+		<div id = "planets">
+			<label>Select a Planet</label> 
+			</br>
+			<select id = "planetSelection">
+				<option value="27.9">Sun</option>
+				<option value=".377">Mercury</option>
+				<option value=".9032">Venus</option>
+				<option value="1">Earth</option>
+				<option value=".1655">Moon</option>
+				<option value=".3895">Mars</option>
+				<option value="2.640">Jupiter</option>
+				<option value="1.139">Saturn</option>
+				<option value=".917">Uranus</option>
+				<option value="1.148">Neptune</option>
+				<option value=".06">Pluto</option>
+			</select>
+		</div>
+
+		<div>
+			<button type="button" id="button">Calculate</button>
+		</div>
+		
+		<p id="results"></p>
+
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
